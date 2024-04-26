@@ -76,10 +76,19 @@ a { text-decoration:none; }
 .cont05 .cont .bot_cont .flex .bg_shadow a .txt .s_txt ul li { display:flex;justify-content:space-between;width:180px; }
 
 /* .cont06 */
-.cont06 { padding:100px 0 40px;background-color:#232532; }
-.cont06 .cont .top_txt { text-align:left; }
+.cont06 { padding:60px 0 40px;background-color:#232532; }
+.cont06 .cont .top_txt { display:flex;justify-content:space-between;align-items:center;padding-bottom:60px;text-align:left; }
+.cont06 .cont .top_txt .lft_txt p.sub { display:inline-block;padding:0;text-align:left; }
+
+.cont06 .cont .top_txt .rgt_txt { display:flex; }
+.cont06 .cont .top_txt .rgt_txt .num { color:#fff; }
+.cont06 .cont .top_txt .rgt_txt .num input::after { content:""; }
+.cont06 .cont .top_txt .rgt_txt input { margin-left:25px;width:150px;height:40px;outline:none;border:none;border-radius:2px; }
+.cont06 .cont .top_txt .rgt_txt input.submit { font-weight:600;cursor:pointer;background-color:#ff3f01; }
 
 .cont06 .cont .bot_txt { border-top:solid 2px rgba(255,255,255,0.3); }
-.cont06 .cont .bot_txt span.s_sub { margin-top:10px; }
 .cont06 .cont .bot_txt span.s_sub:nth-of-type(1) { margin-top:30px;font-size:18px;font-weight:700; }
 .cont06 .cont .bot_txt span.s_sub:nth-of-type(3) { font-size:13px;color:rgba(255,255,255,0.4); }
+
+/* .cont06 공통사용 */
+.cont06 .cont span.s_sub { margin-top:10px; }
