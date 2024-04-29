@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index.css"> <!-- index.css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- aos.css --> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- aos.js -->
   <title>Document</title>
 </head>
 <body>
@@ -25,7 +27,7 @@
     </div>
   </div>
 
-  <div class="cont02 pd100">
+  <div id="cont02" class="cont02 pd100">
     <div class="cont sort">
       <div class="lft_txt sort02">
         <span class="point">Rental service</span>
@@ -35,7 +37,14 @@
         <a href="#" class="btn">렌탈서비스 신청하기</a>
       </div>
       <div class="rgt_cont">
-
+        <ul class="graph_wrap" style="overflow:hidden;">
+          <li id="pot" data-aos-once="true" data-aos="fade-up" data-aos-anchor="#cont02 #pot">5%<span class="s_sub graph01">2019</span></li>
+          <li data-aos-once="true" data-aos="fade-up" data-aos-anchor="#cont02 #pot" data-aos-delay="150">15%<span class="s_sub graph02">2020</span></li>
+          <li data-aos-once="true" data-aos="fade-up" data-aos-anchor="#cont02 #pot" data-aos-delay="300">100%<span class="s_sub graph03">2021</span></li>
+          <li data-aos-once="true" data-aos="fade-up" data-aos-anchor="#cont02 #pot" data-aos-delay="450">150%<span class="s_sub graph04">2022</span></li>
+          <li data-aos-once="true" data-aos="fade-up" data-aos-anchor="#cont02 #pot" data-aos-delay="600">305%<span class="s_sub graph05">2023</span></li>
+          <li data-aos-once="true" data-aos="fade-up" data-aos-anchor="#cont02 #pot" data-aos-delay="750">1015%<span class="s_sub graph06">2024</span></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -69,36 +78,36 @@
         <figure><img src="./img/04.png" alt="쿠폰이미지"></figure>
       </div>
     </div>
-    <div class="bot_txt">
+    <div class="bot_txt sort">
       <div class="lft_txt">
         <ul>
           <li>
-            <span class="s_sub">렌탈서비스 신청하기</span>
-            <span class="s_sub">렌탈서비스 신청하기 렌탈서비스 신청하기</span>
+            <span>렌탈서비스 신청하기</span>
+            <span class="wdt">서비스신청하기렌탈서비스신청하기</span>
           </li>
           <li>
-            <span class="s_sub">렌탈서비스 신청하기</span>
-            <span class="s_sub">렌탈서비스 신청하기 렌탈서비스 신청하기</span>
+            <span>렌탈서비스</span>
+            <span class="wdt">서비스신청하기렌탈서비스신청하기</span>
           </li>
           <li>
-            <span class="s_sub">렌탈서비스 신청하기</span>
-            <span class="s_sub">렌탈서비스 신청하기 렌탈서비스 신청하기</span>
+            <span>렌탈서비스</span>
+            <span class="wdt">서비스신청하기렌탈서비스신청하기</span>
           </li>
         </ul>
       </div>
       <div class="rgt_txt">
         <ul>
           <li>
-            <span class="s_sub">렌탈서비스 신청하기</span>
-            <span class="s_sub">렌탈서비스 신청하기 렌탈서비스 신청하기</span>
+            <span>렌탈서비스신청</span>
+            <span class="wdt">서비스신청하기렌탈서비스신청하기서비스신청하기렌탈서비스신청하기</span>
           </li>
           <li>
-            <span class="s_sub">렌탈서비스 신청하기</span>
-            <span class="s_sub">렌탈서비스 신청하기 렌탈서비스 신청하기</span>
+            <span>렌탈서비스신청</span>
+            <span class="wdt">서비스신청하기렌탈서비스신청하기</span>
           </li>
           <li>
-            <span class="s_sub">렌탈서비스 신청하기</span>
-            <span class="s_sub">렌탈서비스 신청하기 렌탈서비스 신청하기</span>
+            <span>렌탈서비스신청</span>
+            <span class="wdt">서비스신청하기렌탈서비스신청하기</span>
           </li>
         </ul>
       </div>
@@ -124,11 +133,11 @@
                   <ul>
                     <li>
                       <p>원가겠지</p>
-                      <span>50,000원</span>
+                      <span class="point">50,000원</span>
                     </li>
                     <li>
                       <p>할인가</p>
-                      <span>39,000원</span>
+                      <span class="point">39,000원</span>
                     </li>
                   </ul>
                 </div>
@@ -141,6 +150,18 @@
               <div class="txt">
                 <p class="sub">블라블라 페이지</p>
                 <span class="s_sub">렌탈 서비스를 이용하면 필요한 제품을 임시로 빌려 사용할 수 있어요. 유지보수나 업그레이드 걱정 없이 편리하게 이용할 수 있어요.</span>
+                <div class="s_txt">
+                  <ul>
+                    <li>
+                      <p>원가겠지</p>
+                      <span class="point">50,000원</span>
+                    </li>
+                    <li>
+                      <p>할인가</p>
+                      <span class="point">39,000원</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </a>
           </li>
@@ -150,6 +171,18 @@
               <div class="txt">
                 <p class="sub">블라블라 페이지</p>
                 <span class="s_sub">렌탈 서비스를 이용하면 필요한 제품을 임시로 빌려 사용할 수 있어요. 유지보수나 업그레이드 걱정 없이 편리하게 이용할 수 있어요.</span>
+                <div class="s_txt">
+                  <ul>
+                    <li>
+                      <p>원가겠지</p>
+                      <span class="point">50,000원</span>
+                    </li>
+                    <li>
+                      <p>할인가</p>
+                      <span class="point">39,000원</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </a>
           </li>
@@ -159,6 +192,18 @@
               <div class="txt">
                 <p class="sub">블라블라 페이지</p>
                 <span class="s_sub">렌탈 서비스를 이용하면 필요한 제품을 임시로 빌려 사용할 수 있어요. 유지보수나 업그레이드 걱정 없이 편리하게 이용할 수 있어요.</span>
+                <div class="s_txt">
+                  <ul>
+                    <li>
+                      <p>원가겠지</p>
+                      <span class="point">50,000원</span>
+                    </li>
+                    <li>
+                      <p>할인가</p>
+                      <span class="point">39,000원</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </a>
           </li>
@@ -176,7 +221,7 @@
         </div>
         <form class="rgt_txt">
           <div class="num">
-            <input type="tel"><input type="tel"><input type="tel">
+            <input type="tel" id="phone1" maxlength="3" pattern="^01[0-9]{1}" required="required"/>-<input type="tel" id="phone2" maxlength="4" pattern="[0-9]{4}" required="required"/>-<input type="tel" id="phone3" maxlength="4" pattern="[0-9]{4}" required="required"/>
           </div>
           <input type="submit" class="submit" value="무료상담 신청하기">
         </form>
@@ -188,5 +233,27 @@
       </div>
     </div>
   </div>
+  <script>
+    AOS.init({
+					easing: 'ease-out-in',
+					duration: 800
+				});
+
+    const phone1 = document.getElementById('phone1');
+    const phone2 = document.getElementById('phone2');
+
+    phone1.addEventListener('keyup', (e) => {
+        next(e.target.value, 3, 'phone2');
+    });
+    phone2.addEventListener('keyup', (e) => {
+        next(e.target.value, 4, 'phone3');
+    });
+
+    function next(val, len, nextId) {
+        if(val.length == len){
+            document.getElementById(nextId).focus();
+        }
+    }
+  </script>
 </body>
 </html>
