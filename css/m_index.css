@@ -54,22 +54,27 @@
   .cont02 .cont .rgt_cont .graph_wrap li:first-child { margin-left:0; }
   .cont02 .cont .rgt_cont .graph_wrap li span.s_sub { padding:6px 8px;font-size:13px;}
 
+  /* .cont03 */
+  .cont03 { padding:70px 0 140px;}
+
   /* .cont04 */
   .cont04 { padding:70px 0 300px;}
   .cont04 .cont { top:-50px;left:0;right:0;flex-direction:column; }
-  .cont04 .cont .lft_cont { width:100%;flex-direction:column-reverse;align-items:flex-start;padding:30px; }
-  .cont04 .cont .rgt_cont { width:100%;flex-direction:column-reverse;align-items:flex-start;padding:30px; }
+  .cont04 .cont .lft_cont { width:auto;flex-direction:column-reverse;align-items:flex-start;padding:30px;text-align:center; }
+  .cont04 .cont .rgt_cont { width:auto;flex-direction:column-reverse;align-items:flex-start;padding:30px;;text-align:center; }
   .cont04 .bot_txt { display: none !important; position:absolute;top:160px;left:0;right:0;display:flex;margin-top:40px; }
   .cont04 .bot_txt > div ul li:first-child { margin-top:0; }
   
   /* .cont04 공통사용 */
   .cont04 .cont .txt { margin-top:20px;width:auto; }
-  .cont04 .cont .txt p.sub br { display:none;}
+  .cont04 .cont .txt p.sub { text-align:center; }
+  .cont04 .cont .txt p.sub br { display:none; }
+  .cont04 .cont .txt span.s_sub { margin-top:10px;}
+  .cont04 .cont  figure { width:100%; }
+  .cont04 .cont  figure img { width:50%; }
 
 
-  .cont04 .cont .txt p.sub span { font-weight:600;color:#fff; }
-  .cont04 .cont  figure { width:38%; }
-  .cont04 .cont  figure img { width:100%; }
+
   .cont04 .bot_txt > div { width:50%; }
   .cont04 .bot_txt > div ul li { display:flex;justify-content:space-between;align-items:flex-start;margin-top:8px;padding:0 40px;text-align:left; }
   .cont04 .bot_txt > div ul li span { position:relative;display:inline-block;margin-right:20px;font-weight:500;color:#536dfe;font-size:15px;line-height:1.4; }
@@ -77,5 +82,9 @@
   .cont04 .bot_txt > div.rgt_txt ul li span:nth-child(1)::before { background-color:#ff3f01; }
   .cont04 .bot_txt > div ul li span.wdt { width:68%;font-weight:300;color:#333; }
   
-    .cont05,   .cont06 { display: none;}
+
+
+
+
+   .cont05,   .cont06 { display: none;}
 }
