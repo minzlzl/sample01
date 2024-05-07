@@ -21,21 +21,41 @@
   
 } */
 @media (max-width:480px){
-  .pd100 { padding:50px 0; }
-  .sort { width:310px; }
+  .pd100 { padding:70px 0; }
+  .sort { width:350px; }
 
   /* 공통사용 */
   .cont p.sub { font-size:22px; }
+  .cont p.tit { font-size:38px;}
   .cont span.s_sub { font-size:15px; }
-  .cont a.btn { border:solid calc(2 / 480 * 100vw) #fff;font-size:18px; }
+  .cont a.btn { padding:20px 32px;border:solid calc(2 / 480 * 100vw) #fff;font-size:18px; }
 
   /* .cont01 */
   .cont01 .cont .top_cont { flex-direction:column; }
   .cont01 .cont .top_cont p { font-size:70px; }
+  .cont01 .cont .top_cont p.thin { font-weight:300; }
   .cont01 .cont .top_cont p.bold { font-weight:600; }
   .cont01 .cont .top_cont .img figure { margin:70px 0;}
-  .cont01 .cont .top_cont .img figure img { max-width:310px; }
+  .cont01 .cont .top_cont .img figure img { max-width:330px; }
   .cont01 .cont .top_cont .img .line { top:calc(50% - 212px);width:2px;height:55%; }
-  .cont01 .cont .bot_txt { margin:50px auto 0; }
+  .cont01 .cont .bot_txt { margin:50px auto 0;padding:0 10px; }
   .cont01 .cont .bot_txt  p.sub { padding:0; }
+
+  /* .cont02 */
+  .cont02 .cont { display:block; }
+  .cont02 .cont .sort02 { padding:0 10px;width:auto; }
+  .cont02 .cont .lft_txt .btn:hover { border:solid calc(2 / 480 * 100vw) #ff3f01; }
+
+  .cont02 .cont .rgt_cont .graph_wrap { justify-content: center; }
+  .cont02 .cont .rgt_cont .graph_wrap li { margin-left:10px;font-size:18px;font-weight:700;color:#232532; }
+  .cont02 .cont .rgt_cont .graph_wrap li:first-child { margin-left:0; }
+  .cont02 .cont .rgt_cont .graph_wrap li:nth-child(even) { color:#536dfe; }
+  .cont02 .cont .rgt_cont .graph_wrap li span.graph02 { height:50px; }
+  .cont02 .cont .rgt_cont .graph_wrap li span.graph03 { height:120px; }
+  .cont02 .cont .rgt_cont .graph_wrap li span.graph04 { height:180px; }
+  .cont02 .cont .rgt_cont .graph_wrap li span.graph05 { height:220px; }
+  .cont02 .cont .rgt_cont .graph_wrap li span.graph06 { height:280px; }
+  .cont02 .cont .rgt_cont .graph_wrap li span.s_sub { padding:6px 8px;font-size:13px;}
+
+  .cont03,  .cont04,   .cont05,   .cont06 { display: none;}
 }
