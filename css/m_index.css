@@ -55,14 +55,14 @@
   .cont02 .cont .rgt_cont .graph_wrap li span.s_sub { padding:6px 8px;font-size:13px;}
 
   /* .cont03 */
-  .cont03 { padding:70px 0 140px;}
+  .cont03 { padding:70px 0 140px; }
 
   /* .cont04 */
   .cont04 { padding:70px 0 300px;}
   .cont04 .cont { top:-50px;left:0;right:0;flex-direction:column; }
   .cont04 .cont .lft_cont { width:auto;flex-direction:column-reverse;align-items:flex-start;padding:30px;text-align:center; }
   .cont04 .cont .rgt_cont { width:auto;flex-direction:column-reverse;align-items:flex-start;padding:30px;;text-align:center; }
-  .cont04 .bot_txt { display: none !important; position:absolute;top:160px;left:0;right:0;display:flex;margin-top:40px; }
+  .cont04 .bot_txt { display:none !important;position:absolute;top:160px;left:0;right:0;display:flex;margin-top:40px; }
   .cont04 .bot_txt > div ul li:first-child { margin-top:0; }
   
   /* .cont04 공통사용 */
@@ -83,8 +83,21 @@
   .cont04 .bot_txt > div ul li span.wdt { width:68%;font-weight:300;color:#333; }
   
 
+  
+  /* .cont05 */
+  .cont05 { display: none; }
 
 
+  
+  /* .cont06 */
+  .cont06 { padding:40px 0 30px; }
+  .cont06 .cont .top_txt { display:block;padding:0 10px 40px;text-align:center; }
 
-   .cont05,   .cont06 { display: none;}
+  .cont06 .cont .top_txt .rgt_txt { margin-top:20px;justify-content:center;align-items:center; }
+  .cont06 .cont .top_txt .rgt_txt input { margin:0 7px;padding:0;width:50px;height:30px; }
+  .cont06 .cont .top_txt .rgt_txt input.submit { width:110px;font-weight:500; }
+
+  .cont06 .cont .bot_txt { padding:0 10px;border-top:solid 1px rgba(255,255,255,0.3); }
+  .cont06 .cont .bot_txt span.s_sub:nth-of-type(1) { font-weight:500; }
+  .cont06 .cont .bot_txt span.s_sub:nth-of-type(2) { margin-top:5px;color:rgba(255,255,255,0.8); }
 }
