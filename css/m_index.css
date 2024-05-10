@@ -82,11 +82,14 @@
   .cont04 .bot_txt > div.rgt_txt ul li span:nth-child(1)::before { background-color:#ff3f01; }
   .cont04 .bot_txt > div ul li span.wdt { width:68%;font-weight:300;color:#333; }
   
+  .cont04 { display: none; }
 
   
   /* .cont05 */
-  .cont05 { display: none; }
-
+  .cont05 .cont .bot_cont { margin-top:35px;padding:0 10px; }
+  .cont05 .cont .bot_cont .flex { flex-wrap:nowrap; }
+  .cont05 .cont .bot_cont .flex .bg_shadow:nth-of-type(3), .cont05 .cont .bot_cont ul li:nth-of-type(4) { margin-top:0; }
+  .cont05 .cont .bot_cont .flex .bg_shadow a { flex-direction:column;padding:30px 20px; }
 
   
   /* .cont06 */
