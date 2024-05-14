@@ -86,14 +86,7 @@
 
   
   /* .cont05 */
-  .cont05 .cont .bot_cont { margin-top:35px;padding:0 10px; }
-  .cont05 .cont .bot_cont .flex { flex-wrap:nowrap; }
-  .cont05 .cont .bot_cont .flex .bg_shadow:nth-of-type(3), .cont05 .cont .bot_cont ul li:nth-of-type(4) { margin-top:0; }
-  .cont05 .cont .bot_cont .flex .bg_shadow a { flex-direction:column;padding:50px; }
-  .cont05 .cont .bot_cont .flex .bg_shadow a figure { width:100%; }
-  .cont05 .cont .bot_cont .flex .bg_shadow a .txt { width:auto; }
-  .cont05 .cont .bot_cont .flex .bg_shadow a .txt p.sub { margin-top:10px;text-align:center; }
-  .cont05 .cont .bot_cont .flex .bg_shadow a .txt .s_txt ul li { width:auto; }
+
   
   /* .cont06 */
   .cont06 { padding:40px 0 30px; }
