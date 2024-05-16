@@ -300,14 +300,31 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 2,
-        grid: {
-          rows: 2,
-        },
-        spaceBetween: 35,
+        //slidesPerView: 2,
+       //grid: {
+          //rows: 2,
+        //},
+        //spaceBetween: 35,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        breakpoints: {
+          // 360px 이상일 때
+          360: {
+            slidesPerView: 1,
+            grid: {
+              rows: 1,
+            },
+            spaceBetween: 30,
+          },
+          481: {
+            slidesPerView: 2,
+            grid: {
+              rows: 2,
+            },
+            spaceBetween: 35,
+          }
         },
       });
     </script>

@@ -86,7 +86,14 @@
 
   
   /* .cont05 */
-
+  .cont05 .cont .bot_cont { margin-top:15px; }
+  .cont05 .cont .bot_cont .bg_shadow a { padding:30px 20px;flex-direction:column; }
+  .cont05 .cont .bot_cont .bg_shadow a figure { width:80%; }
+  .cont05 .cont .bot_cont .bg_shadow a .txt { margin-top:20px;width:100%; }
+  .cont05 .cont .bot_cont .bg_shadow a .txt p.sub { font-weight:500; }
+  .cont05 .cont .bot_cont .bg_shadow a .txt span.s_sub { margin-top:5px; }
+  .cont05 .cont .bot_cont .bg_shadow a .txt .s_txt { margin-top:25px; }
+  .cont05 .cont .bot_cont .bg_shadow a .txt .s_txt ul li { width:100%; }
   
   /* .cont06 */
   .cont06 { padding:40px 0 30px; }
